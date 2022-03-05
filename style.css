@@ -1,0 +1,19 @@
+h3 {
+    font-size: 25px !important;
+}
+.btn-danger:hover {
+background-color:purple ;
+}
+canvas {
+    animation-name:Joseph1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Joseph1 {
+    from{
+        box-shadow: 3px 3px 5px greenyellow;
+    }
+    to{
+        box-shadow: 3px 3px 5px rgb(73, 10, 133);
+    }
+}
